@@ -1,4 +1,4 @@
-(function (exports) {
+var iife = (function (exports) {
   'use strict';
 
   var testSdkDemo = {

@@ -8,6 +8,7 @@ export default {
     output: {
         file: 'dist/index.iife.js',
         format: 'iife',
+        name: 'iife'
     },
     watch: {
         exclude: 'node_modules/**'
