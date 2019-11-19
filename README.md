@@ -1,1 +1,1 @@
-My Awesome Typescript Project
+a sdk exercise

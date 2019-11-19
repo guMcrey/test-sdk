@@ -1,47 +1,20 @@
 {
-  "name": "test-sdk",
-  "version": "1.0.1",
-  "description": "A nice greeter",
-  "main": "lib/index.js",
-  "type": "lib/index.d.ts",
-  "dependencies": {},
-  "devDependencies": {
-    "@commitlint/cli": "^8.2.0",
-    "@commitlint/config-conventional": "^8.2.0",
-    "@types/jasmine": "^3.4.6",
-    "@types/jest": "^24.0.23",
-    "commitizen": "^4.0.3",
-    "cz-conventional-changelog": "^3.0.2",
-    "husky": "^3.1.0",
-    "jasmine-core": "^3.5.0",
-    "jest": "^24.9.0",
-    "karma": "^4.4.1",
-    "karma-chrome-launcher": "^3.1.0",
-    "karma-jasmine": "^2.0.1",
-    "karma-webpack": "^4.0.2",
-    "prettier": "^1.19.1",
-    "ts-jest": "^24.1.0",
-    "ts-loader": "^6.2.1",
-    "tslint": "^5.20.1",
-    "tslint-config-prettier": "^1.18.0",
-    "typescript": "^3.7.2",
-    "webpack": "^4.41.2",
-    "webpack-dev-server": "^3.9.0"
-  },
+  "name": "@test/test-sdk",
+  "version": "1.0.0",
+  "description": "a sdk exercise",
+  "main": "index.js",
   "scripts": {
-    "start": "tsc -w",
-    "build": "tsc",
-    "test": "jest --config jestconfig.json",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
-    "lint": "tslint -p tsconfig.json",
-    "commit": "git-cz",
-    "prepare": "npm run build",
-    "prepublishOnly": "npm test && npm run lint",
-    "preversion": "npm run lint",
-    "version": "npm run format && git add -A src",
-    "postversion": "git push && git push --tags"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guMcrey/test-sdk.git"
+  },
+  "author": "gumeixing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guMcrey/test-sdk/issues"
+  },
+  "homepage": "https://github.com/guMcrey/test-sdk#readme",
+  "keywords": []
 }
