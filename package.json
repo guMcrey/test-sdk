@@ -1,7 +1,7 @@
 {
-  "name": "@test/test-sdk",
-  "version": "1.0.0",
-  "description": "a sdk exercise",
+  "name": "test-sdk-demo",
+  "version": "2.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,11 +10,20 @@
     "type": "git",
     "url": "git+https://github.com/guMcrey/test-sdk.git"
   },
-  "author": "gumeixing",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/guMcrey/test-sdk/issues"
   },
   "homepage": "https://github.com/guMcrey/test-sdk#readme",
-  "keywords": []
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/plugin-external-helpers": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "dependencies": {}
 }
